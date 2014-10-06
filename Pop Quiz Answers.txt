@@ -1,0 +1,7 @@
+Pop Quiz:
+
+1. cd nameOfDirectory
+2. git is a version control manangement software, github is a social collaboration distributed repository site which utlizies git
+3. git add filename
+4. github repository is a remote repository which you can develop with other developers on the same projects.
+5.c. git push origin master
