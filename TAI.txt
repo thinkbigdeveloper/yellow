@@ -1,0 +1,16 @@
+TAI, (c)2014 Dave Nadel
+
+TAI is born.  Turing AI
+
+
+A Client-facing AI system to "tour" users through KVA's (key valued actions) on a site.  
+
+Called from HEADER script tag for every HTML page.  Must be inserted into code by Webmaster, or as Plugin for Wordpress, Joomla.
+
+Once installed, clients can select pages of their website (and elements?) and assign them to a TAI, a sequential suggested content consumption pattern that the site serves up on the fly to each user, based on rules by Client and built-in rules.
+
+Assignable by Client: 
+Pages
+Divs (?)
+
+TAI operates as transparent site overlay.
