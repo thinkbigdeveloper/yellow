@@ -1,0 +1,156 @@
+BEWD Class Notes
+
+Class 1 / Monday 9-29
+- Setup developer environment
+- git
+- github
+- bash / terminal
+- hipchat
+
+Class 2 / Wednesday 10-1
+"Directory" = folder
+Command + K / Clears Terminal
+
+Terminal Commands
+=================
+pwd - print working directory
+ls - list contents of directory
+mkdir - make directory
+cd - change directory
+cd .. - change directory up one folder
+rmdir - remove directory
+rm -rvf - remove files in directory ('rm -rvf sample'), sample being the directory
+mv - move
+touch - create file (e.g. $ touch fred.txt) creates 'fred.txt' file
+cp - copy
+cd . - THIS folder
+ls -a - shows all files (including hidden folders)
+mv harry.txt ./oned
+SHIFT + RETURN +Q - escape from terminal
+
+GIT
+===
+git init - intialize git repository
+git add
+git status
+git help
+git add . - add folder
+git diff - shows difference between folders
+git rm
+git commit -m
+git commit -a (all) -m (message)
+
+git branch
+git checkout (branch name)
+git merge
+git branch -d (deletes branch named)
+git log
+
+GITHUB
+======
+SSH - securely logs you into shell of another computer
+
+git remote add origin FILE LOCATION
+git remote -v
+git push origin master
+git pull origin master
+git clone
+git pull upstream master
+git remote add upstream
+
+Class 3 / Monday 10-6
+
+RUBY
+====
+from TERMINAL: 'irb' - opens interactive ruby shell
+
+Arithmatic Operators
+--------------------
++, -, *, /
+
+Whole #'s are 'integers' 
+2 types of integer: fixednum, bignum
+'float' is integer with decimal (e.g. 5.3)
+
+
+Comparison Operators returns TRUE or FALSE
+------------------------------------------
+>, <, >=, <=, ==
+!> - not greater than
+
+Variables
+---------
+number = 7 ('number' = variable name, '7' = assignment)
+number + number (returns 14)
+variables must be lowercase
+
+
+Strings
+-------
+"hey" or 'hey'
+'hey'.class (. is dot operator, 'class' is message) (RETURNS 'string')
+
+instantiate - create an instance of an object
+
+Assignment Operators 
+--------------------
+= / equals
++= / adds item on right
+-= / subtracts item on right
+*= / multiplies item on right
+/= / divides item on right
+%= / modulo item on right
+**= / square item on right
+
+Other Operators
+---------------
+Logic Operators
+3==3 and 5>3 / returns TRUE ('and' operator)
+3==3 or 6<3 / returns TRUE ('or' operator)
+
+'dave'.upcase
+'dave'.reverse
+'dave'.downcase
+'dave'.upcase.reverse
+'dave'.length
+
+METHODS 
+-------
+create own method
+
+def hello
+	puts "Hello!"
+end
+:hello
+
+runfile: rubymethods.rb
+
+def say_hello(name)
+   puts "Hello" +name
+end
+say_hello("Joe")
+
+select variable and hit SHIFT +3
+
+Single quoted text strings 'like this' do NOT allow interpolation
+Double quoted text strings "like this" DO allow interpolation (i.e. putting in of ruby code)
+
+Control Logic
+-------------
+if age>21
+puts "something"
+else puts "something else"
+end
+
+if age=21
+puts "hi 21"
+elsif age>21
+puts "you're old"
+else puts "you're too young"
+end
+
+'puts' - put string
+'gets' - get string
+
+
+Class 4 / Wednesday 10-8
